@@ -19,8 +19,6 @@ int main(void)
 	InitUart(115200);
 	InitIic();	
 	MpuState = MPU_Init();
-//	DelayMs(500);
-	//上传Github成功！！！
 	while(1)
 	{	
 		printf("%d\r\n",MpuState);
